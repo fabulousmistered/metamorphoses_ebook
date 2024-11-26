@@ -4,6 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ovid's Metamorphoses</title>
+
+    <style>
+        body {
+          font-family: 'Times New Roman', serif;
+          line-height: 2.2;
+          margin: 20px;
+          background: #f4f4f4;
+        }
+        
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .poem {
+          white-space: pre-wrap;
+          margin-bottom: 20px;
+        }
+        
+        /* Parts of Speech Colors */
+        .verb { color: #c0392b; }
+        .adjective { color: #87CEEB; }
+        .adverb { color: #4682B4; }
+        .noun { color: #191970; }
+        .pronoun { color: #2C3E50; }
+        .preposition { color: #2ECC71; }
+        .conjunction { color: #7F8C8D; }
+        .exclamation { color: #95A5A6; }
+        
+        /* Case Underlines */
+        .nominative { text-decoration: underline; }
+        .accusative { text-decoration: double underline; }
+        .ablative { text-decoration: wavy underline; }
+        .dative { text-decoration: dotted underline; }
+        .genitive { text-decoration: dashed underline; }
+        .vocative { text-decoration: none; }
+        
+        /* Tense Styling */
+        .imperfect, .perfect { font-weight: bold; }
+        .future { font-style: italic; }
+        
+        /* Mood Highlight */
+        .subjunctive { 
+          background-color: rgba(255, 192, 203, 0.3); 
+          border-radius: 3px;
+        }
+        
+        /* Person and Number Superscripts */
+        .person {
+          font-size: 0.7em;
+          vertical-align: super;
+        }
+        
+        .legend {
+          margin-top: 20px;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          font-size: 0.9em;
+        }
+        
+        .legend-section {
+          margin-bottom: 10px;
+        }
+      </style>
 </head>
 <body>
 
@@ -12,10 +81,22 @@
 <article class="tale" id="proem">
 <h3>Proem</h3>
 
-In nova fert animus mūtātās dīcere fōrmās
+<pre class="latin-verse">
+In nova <span class="verb perfect">fert</span> animus mūtātās dīcere fōrmās
 corpora; dī, coeptīs (nam vōs mūtāstis et illās)
 adspīrāte meīs prīmāque ab orīgine mundī
 ad mea perpetuum dēdūcite tempora carmen!
+</pre>
+
+
+
+
+<pre class="english-translation">
+My spirit compels me to speak of forms changed into new
+bodies; oh gods, into my undertaking (for that, too, you changed)
+breathe life, and from the first origin of the world 
+to my own times, spin a continuous poem. 
+</pre>
 </article>
 
 <article class="tale" id="creation">
