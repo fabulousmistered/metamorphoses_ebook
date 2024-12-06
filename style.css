@@ -1,0 +1,93 @@
+body {
+    font-family: 'Palatino';
+    line-height: 2.2;
+    margin: 20px;
+    background: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .poem {
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+  }
+
+
+        .label {
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            margin-bottom: 10px;
+            display: inline-block;
+            border-radius: 3px;
+        }
+
+        .success {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .alert {
+            background-color: #dc3545;
+            color: #fff;
+        }
+
+        .warning {
+            background-color: #ffc107;
+            color: #212529;
+        }
+  
+  /* Parts of Speech Colors */
+  .verb { color: #61efbb; }
+  .adjective { color: #97679c; }
+  .adverb { color: #fbd0a2; }
+  .noun { color: #191970; }
+  .pronoun { color: #2C3E50; }
+  .preposition { color: #f84a93; }
+  .conjunction { color: #7F8C8D; }
+  .exclamation { color: #f12020; }
+  
+  /* Case Underlines */
+  .nominative { text-decoration: underline; }
+  .accusative { text-decoration: double underline; }
+  .ablative { text-decoration: wavy underline; }
+  .dative { text-decoration: dotted underline; }
+  .genitive { text-decoration: dashed underline; }
+  .vocative { text-decoration: none; }
+  
+  /* Tense Styling */
+  .imperfect, .perfect { font-weight: bold; }
+  .future { font-style: italic; }
+  
+  /* Mood Highlight */
+  .subjunctive { 
+    background-color: rgba(255, 192, 203, 0.3); 
+    border-radius: 3px;
+  }
+  
+  /* Person and Number Superscripts */
+  .person {
+    font-size: 0.7em;
+    vertical-align: super;
+  }
+  
+  .legend {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  
+  .legend-section {
+    margin-bottom: 10px;
+  }
+  .pre {
+    font-family: "Harvest Bailey";
+  }
