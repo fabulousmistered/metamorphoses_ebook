@@ -91,3 +91,7 @@ body {
   .pre {
     font-family: "Harvest Bailey";
   }
+
+  article {
+    max-width: 300px;
+  }
