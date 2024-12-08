@@ -19,6 +19,10 @@ body {
     margin-bottom: 20px;
   }
 
+  pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
 
         .label {
             font-size: 1.5rem;
@@ -44,7 +48,7 @@ body {
         }
   
   /* Parts of Speech Colors */
-  .verb { color: #61efbb; }
+  .verb { color: #66bf9e; }
   .adjective { color: #97679c; }
   .adverb { color: #fbd0a2; }
   .noun { color: #191970; }
@@ -88,10 +92,10 @@ body {
   .legend-section {
     margin-bottom: 10px;
   }
-  .pre {
-    font-family: "Harvest Bailey";
-  }
 
-  article {
-    max-width: 300px;
-  }
+article {
+  border: #ddd;
+  box-sizing: border-box;
+  position: relative;
+}
+
